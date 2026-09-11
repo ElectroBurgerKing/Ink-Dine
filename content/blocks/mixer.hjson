@@ -1,0 +1,33 @@
+{
+  type: GenericCrafter
+  name: "mixer"
+  displayName: "Миксер"
+  description: "Смешивает две Чернильные Сферы в Чернильное Тесто. Требует энергию."
+  size: 2
+  health: 200
+  hasItems: true
+  hasPower: true
+  craftTime: 60
+  outputItem: {
+    item: "ink-dough"
+    amount: 1
+  }
+  consumes: {
+    power: 0.5
+    items: [
+      ink-orb/2
+    ]
+  }
+  requirements: [
+    copper/30
+    lead/20
+  ]
+  category: crafting
+  research: {
+    parent: ink-well
+    requirements: [
+      copper/1000
+      lead/500
+    ]
+  }
+}
