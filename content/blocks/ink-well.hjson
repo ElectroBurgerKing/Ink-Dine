@@ -15,12 +15,6 @@
   consumes: {
     power: 1.0
   }
-  drawer: {
-    type: DrawFrames
-    frames: 4
-    interval: 5
-    sine: false
-  }
   requirements: [
     copper/50
     lead/30
