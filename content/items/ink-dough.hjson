@@ -1,0 +1,13 @@
+{
+  type: Item
+  name: "ink-dough"
+  displayName: "Чернильное Тесто"
+  description: "Густая масса из чернил. Полуфабрикат для большинства блюд."
+  color: "3d2f4f"
+  hardness: 1
+  explosiveness: 0
+  flammability: 0
+  radioactivity: 0
+  charge: 0
+  cost: 1
+}
