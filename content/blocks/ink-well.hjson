@@ -2,8 +2,32 @@
   type: GenericCrafter
   name: "ink-well"
   displayName: "Чернильный Колодец"
-  // ... остальные строки ...
-  frames: 4            // Сколько кадров анимации
-  transitionFrames: 2  // Плавные переходы между кадрами
-  frameTime: 5         // Скорость анимации (в тиках)
+  description: "Вытягивает чернила из-под земли. Требует энергию."
+  size: 2
+  health: 160
+  hasItems: true
+  hasPower: true
+  craftTime: 120
+  frames: 4
+  transitionFrames: 2
+  frameTime: 5
+  outputItem: {
+    item: "ink-orb"
+    amount: 1
+  }
+  consumes: {
+    power: 1.0
+  }
+  requirements: [
+    copper/50
+    lead/30
+  ]
+  category: production
+  research: {
+    parent: core-shard
+    requirements: [
+      copper/800
+      lead/400
+    ]
+  }
 }
