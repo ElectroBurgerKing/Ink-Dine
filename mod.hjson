@@ -1,0 +1,6 @@
+displayName: "Ink & Dine"
+name: "ink-and-dine"
+author: "Electro"
+description: "Кулинарный мод в стиле Cuphead. Стройте ресторан, готовьте блюда и обслуживайте клиентов."
+version: "1.0"
+minGameVersion: "146"
