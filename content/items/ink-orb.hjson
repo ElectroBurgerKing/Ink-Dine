@@ -1,0 +1,13 @@
+{
+  type: Item
+  name: "ink-orb"
+  displayName: "Чернильная Сфера"
+  description: "Сгусток тьмы. Основа всех блюд и валюта Дьявола."
+  color: "1a1a1a"
+  hardness: 1
+  explosiveness: 0
+  flammability: 0
+  radioactivity: 0
+  charge: 0
+  cost: 1
+}
