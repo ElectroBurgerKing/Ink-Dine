@@ -1,5 +1,5 @@
 {
-  type: GenericCrafter
+  type: AttributeCrafter
   name: "ink-well"
   displayName: "Чернильный Колодец"
   description: "Вытягивает чернила из-под земли. Требует энергию."
@@ -8,6 +8,9 @@
   hasItems: true
   hasPower: true
   craftTime: 120
+  frames: 4
+  transitionFrames: 2
+  frameTime: 5
   outputItem: {
     item: "ink-orb"
     amount: 1
