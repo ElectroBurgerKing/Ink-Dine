@@ -1,16 +1,13 @@
 {
-  type: AttributeCrafter
+  type: GenericCrafter
   name: "ink-well"
   displayName: "Чернильный Колодец"
   description: "Вытягивает чернила из-под земли. Требует энергию."
-  size: 2
-  health: 160
+  size: 3
+  health: 320
   hasItems: true
   hasPower: true
   craftTime: 120
-  frames: 4
-  transitionFrames: 2
-  frameTime: 5
   outputItem: {
     item: "ink-orb"
     amount: 1
@@ -18,9 +15,15 @@
   consumes: {
     power: 1.0
   }
+  drawer: {
+    type: DrawFrames
+    frames: 4
+    interval: 8
+    sine: false
+  }
   requirements: [
-    copper/50
-    lead/30
+    copper/100
+    lead/60
   ]
   category: production
   research: {
