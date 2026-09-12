@@ -1,16 +1,13 @@
 {
-  type: AttributeCrafter
+  type: GenericCrafter
   name: "mixer"
   displayName: "Миксер"
   description: "Смешивает две Чернильные Сферы в Чернильное Тесто. Требует энергию."
-  size: 2
-  health: 200
+  size: 3
+  health: 400
   hasItems: true
   hasPower: true
   craftTime: 60
-  frames: 4
-  transitionFrames: 2
-  frameTime: 5
   outputItem: {
     item: "ink-dough"
     amount: 1
@@ -21,9 +18,15 @@
       ink-orb/2
     ]
   }
+  drawer: {
+    type: DrawFrames
+    frames: 4
+    interval: 8
+    sine: false
+  }
   requirements: [
-    copper/30
-    lead/20
+    copper/60
+    lead/40
   ]
   category: crafting
   research: {
