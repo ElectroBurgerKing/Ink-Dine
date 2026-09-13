@@ -18,12 +18,6 @@
       ink-orb/2
     ]
   }
-  drawer: {
-    type: DrawFrames
-    frames: 4
-    interval: 8
-    sine: false
-  }
   requirements: [
     copper/60
     lead/40
